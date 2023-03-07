@@ -56,7 +56,7 @@ Here I list the models I used along with the hyperparameters I decided to tune.
 I report the result of the hyperparameter scan in the table below, including the estimated accuracy on the 30% of the training sample allocated for testing (not the actual test sample for the submission in Kaggle). 
 
 Model | Estimated accuracy | Best hyperparameters 
---- | --- 
+--- | --- | --- 
  model_logistic_regression    | 77.67 | {'C': 1, 'max_iter': 100, 'solver': 'lbfgs'}
  model_svc    | 78.64 | {'C': 1.5, 'gamma': 'scale', 'shrinking': True}
  model_bagging_trees    | 78.76 | {'max_features': 0.6, 'max_samples': 0.3, 'n_estimators': 20}
